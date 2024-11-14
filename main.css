@@ -104,8 +104,7 @@ html {
 .about-txt {
     margin-top: 1.25rem;
     font-size: 1rem;
-    color: #4a3494;
-    line-height: 1.5;
+    line-height: 1.7;
 }
 
 .skill-container {
@@ -129,8 +128,42 @@ html {
     color: #4a3494;
 }
 
+#projects-title {
+    padding: 1.5rem 3.3rem 0 3.3rem;
+}
+
 .projects-container {
-    padding: 1.5rem 3.3rem;
+    padding: 0 3.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+}
+
+.project {
+    margin-top: 1.25rem;
+}
+
+.project img {
+    width: 12.5rem;
+    height: auto;
+    margin: 0.75rem 0;
+}
+
+.project h4 {
+    color: #ff33e0;
+}
+
+.project p {
+    margin-bottom: 0.75rem;
+}
+
+#placeholder-img {
+    width: 12.5rem;
+    height: 9.8rem;
+    margin: 0.75rem 0;
+    background-color: #4a3494;
+    color: white;
 }
 
 .contact-container {
