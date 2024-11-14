@@ -8,23 +8,38 @@
 </head>
 <body>
     <div class="menu">
-        <h3>Jade's Portfolio</h3>
+        <h3 class="home-title"><a href="#intros">Jade's Portfolio</a></h3>
         <ul class="navbar">
-            <li><a href="">Education</a></li>
-            <li><a href="">Experience</a></li>
-            <li><a href="">Contact</a></li>
+            <li><a href="#about-title">About</a></li>
+            <li><a href="#skill-title">Skills</a></li>
+            <li><a href="#projects-title">Projects</a></li>
+            <li><a href="#contact-title">Contact</a></li>
         </ul>
     </div>
 
-    <div class="intro">
-        <h1>Hello, I'm <span class="name">Jade Kim</span>.
-            <br>A frontend developer based in South Korea.
-        </h1>
-        <button class="contactbtn">Contact Me</button>
+    <div class="intro" id="intros">
+        <div class="left-side">
+            <h1 class="intro-txt">Hello, I'm <span class="name">Jade Kim</span>.
+                <br>A frontend developer based in South Korea.
+            </h1>
+            <button class="contactbtn">Contact Me</button>
+        </div>
+        <div class="right-side">
+            <img src="./img/computer.png" alt="Computer with code">
+        </div>
+    </div>
+
+    <div class="about-container">
+        <h2 id="about-title">About Me</h2>
+        <p class="about-txt">
+            I'm a Computer Science major at the University of Wisconsin-Madison, where I built a strong foundation in core computer science concepts, such as algorithms, and worked with classmates on Android app development projects as a frontend developer.<br>
+            My passion for travel and learning led me to spend a semester as an exchange student at Kyoto University in Japan, where I expanded my technical skills by studying Python and databases.<br>
+            Currently, I'm taking time off from school to gain practical experience in full-stack web development and build on my knowledge to become a more versatile developer.
+        </p>
     </div>
 
     <div class="skill-container">
-        <h2>Skills</h2>
+        <h2 id="skill-title">Skills</h2>
         <ul class="skill-list">
             <li>HTML</li>
             <li>CSS</li>
@@ -36,6 +51,15 @@
             <li>Java</li>
             <li>Android Studio</li>
         </ul>
+    </div>
+
+    <div class="projects-container">
+        <h2 id="projects-title">Projects</h2>
+
+    </div>
+
+    <div class="contact-container">
+        <h2 id="contact-title">Contact</h2>
     </div>
 </body>
 </html>
