@@ -8,29 +8,33 @@
 </head>
 <body>
     <div class="menu">
-        <h3 class="home-title"><a href="#intros">Jade's Portfolio</a></h3>
+        <h3 class="home-title"><a href="#home">Jade's Portfolio</a></h3>
         <ul class="navbar">
             <li><a href="#about-title">About</a></li>
             <li><a href="#skill-title">Skills</a></li>
             <li><a href="#projects-title">Projects</a></li>
-            <li><a href="#contact-title">Contact</a></li>
         </ul>
     </div>
 
-    <div class="intro" id="intros">
+    <div class="intro" id="home">
         <div class="left-side">
             <h1 class="intro-txt">Hello, I'm <span class="name">Jade Kim</span>.
                 <br>A frontend developer based in South Korea.
             </h1>
-            <button class="contactbtn">Contact Me</button>
+            <div class="contact-logo-container">
+                <a href="https://github.com/poppinpigeon" target="_blank" rel="noopener noreferrer"><img class="contact-logo" src="./img/github.svg" alt="Github logo"></a>
+                <a href="https://www.linkedin.com/in/jade-kim-908439271/" target="_blank" rel="noopener noreferrer"><img class="contact-logo" src="./img/linkedin.svg" alt="Linkedin logo"></a>
+                <a href="https://velog.io/@poppinpigeon/posts" target="_blank" rel="noopener noreferrer"><img class="contact-logo" src="./img/velog.svg" alt="Velog logo"></a>
+                <a href="https://small-ice-f74.notion.site/12fca5776a31802ea16ef204d9f94b8e?v=722017d452f64c19a34fa5156787271b&pvs=4" target="_blank" rel="noopener noreferrer"><img class="contact-logo" src="./img/notion.svg" alt="Notion logo"></a>
+            </div>
         </div>
         <div class="right-side">
             <img src="./img/computer.png" alt="Computer with code">
         </div>
     </div>
 
-    <div class="about-container">
-        <h2 id="about-title">About Me</h2>
+    <div class="about-container" id="about-title">
+        <h2>About Me</h2>
         <p class="about-txt">
             I'm a junior Computer Science student at the University of Wisconsin-Madison, where I studied core concepts such as algorithms, linear algebra, and statistics.<br>
             I also collaborated with classmates on various Android development projects as a frontend developer, including 'Badger Buddy', a campus navigation app.<br>
@@ -41,8 +45,8 @@
         </p>
     </div>
 
-    <div class="skill-container">
-        <h2 id="skill-title">Skills</h2>
+    <div class="skill-container" id="skill-title">
+        <h2>Skills</h2>
         <ul class="skill-list">
             <li>HTML</li>
             <li>CSS</li>
@@ -95,10 +99,6 @@
             <h4>Description</h4>
             <p>Description about the project.</p>
         </div>
-    </div>
-
-    <div class="contact-container">
-        <h2 id="contact-title">Contact</h2>
     </div>
 </body>
 </html>

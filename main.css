@@ -27,6 +27,10 @@ html {
     color: black;
 }
 
+.home-title a:hover {
+    color: #ff33e0;
+}
+
 .navbar {
     display: flex;
     list-style: none;
@@ -81,20 +85,25 @@ html {
     height: auto;
 }
 
-.contactbtn {
-    font-size: 1rem;
-    padding: 0.625rem 1.5rem;
-    margin-top: 1.25rem;
-    background-color: white;
-    color: #4a3494;
-    border: 0.1rem solid #4a3494;
-    border-radius: 0.25rem;
-    transition-duration: 0.4s;
+.contact-logo-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 30%;
+    margin-top: 1.5rem;
 }
 
-.contactbtn:hover {
-    background-color: #4a3494;
-    color: white;
+.contact-logo {
+    width: 2rem;
+    height: auto;
+    opacity: 0.6;
+}
+
+.contact-logo:hover {
+    opacity: 1.0;
+}
+
+.intro a {
+    text-decoration: none;
 }
 
 .about-container {
@@ -133,7 +142,7 @@ html {
 }
 
 .projects-container {
-    padding: 0 3.3rem;
+    padding: 6rem 3.3rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -164,8 +173,4 @@ html {
     margin: 0.75rem 0;
     background-color: #4a3494;
     color: white;
-}
-
-.contact-container {
-    padding: 1.5rem 3.3rem;
 }
