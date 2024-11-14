@@ -107,7 +107,7 @@ html {
 }
 
 .about-container {
-    padding: 1.5rem 3.3rem;
+    padding: 4.4rem 3.3rem 0 3.3rem;
 }
 
 .about-txt {
@@ -117,7 +117,7 @@ html {
 }
 
 .skill-container {
-    padding: 1.5rem 3.3rem;
+    padding: 4.4rem 3.3rem 0 3.3rem;
 }
 
 .skill-list {
@@ -138,7 +138,7 @@ html {
 }
 
 #projects-title {
-    padding: 1.5rem 3.3rem 0 3.3rem;
+    padding: 4.4rem 3.3rem 0 3.3rem;
 }
 
 .projects-container {
